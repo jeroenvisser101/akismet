@@ -1,0 +1,24 @@
+{
+  "name": "jeroenvisser101/akismet",
+  "description": "Client for Akismet's spam detection service",
+  "keywords": ["spam", "detection", "captcha", "akismet"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeroen Visser",
+      "email": "me@jrnv.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jrnv\\Akismet\\": "src/"
+    }
+  }
+}
